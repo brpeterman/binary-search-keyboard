@@ -1,0 +1,23 @@
+{
+  "name": "binary-search-keyboard",
+  "version": "1.0.0",
+  "description": "A bad UI",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp index.html build/index.html && cp keyboard.css build/keyboard.css && browserify src/keyboard.js --ig -o build/keyboard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brpeterman/binary-search-keyboard.git"
+  },
+  "author": "Brandon Peterman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brpeterman/binary-search-keyboard/issues"
+  },
+  "homepage": "https://github.com/brpeterman/binary-search-keyboard#readme",
+  "devDependencies": {
+    "an-array-of-english-words": "^1.3.1",
+    "wordlist-english": "^1.2.1"
+  }
+}
